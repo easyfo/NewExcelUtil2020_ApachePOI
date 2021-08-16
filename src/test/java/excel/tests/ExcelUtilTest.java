@@ -5,6 +5,7 @@ import com.excel.lib.util.Xls_Reader;
 public class ExcelUtilTest {
 
 	public static void main(String[] args) {
+		WebDriver driver;
 
 		Xls_Reader reader = new Xls_Reader("./src/main/java/com/excel/lib/util/SampleExcel.xlsx");
 		String sheetName = "login";
